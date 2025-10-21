@@ -37,3 +37,6 @@ Build and Install python package
 
 export CMAKE_PREFIX_PATH=/opt/rocm
 ./build-python.sh install --rocm
+
+
+<img width="1681" height="955" alt="image" src="https://github.com/user-attachments/assets/46f4b9f0-87a4-4f7a-8e16-408ed746520e" />
