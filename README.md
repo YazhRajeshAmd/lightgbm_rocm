@@ -6,8 +6,8 @@ This code implements a binary classification model using LightGBM for a Home Cre
 Here's what each section does:
 
 **Data Loading and Preprocessing**
-Loads training data from application_train.csv (likely the Home Credit Default Risk dataset from Kaggle)
-Separates features and target: The target variable is TARGET (probably indicating loan default), and features exclude TARGET and SK_ID_CURR (customer ID)
+Loads training data from application_train.csv ( Home Credit Default Risk dataset from Kaggle)
+Separates features and target: The target variable is TARGET (indicating loan default), and features exclude TARGET and SK_ID_CURR (customer ID)
 Handles categorical features: Automatically identifies object-type columns and converts them to categorical data type for LightGBM
 
 **Data Splitting**
@@ -30,7 +30,8 @@ Training: Runs up to 1000 boosting rounds but may stop early
 **Evaluation**
 Prediction: Uses the best iteration (from early stopping) to make predictions
 Evaluation: Calculates AUC score on validation set and prints the result
-This is a typical machine learning pipeline for credit risk modeling, where the goal is to predict whether a loan applicant will default on their loan based on their application data.
+
+**Final goal** is to predict whether a loan applicant will default on their loan based on their application data.
 
 **Install Dependencies**
 **Boost Libs**
