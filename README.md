@@ -1,4 +1,4 @@
-                                                                                        **LIGHTGBM ROCM HOME CREDIT RISK PREDICTION**
+**LIGHTGBM ROCM HOME CREDIT RISK PREDICTION**
 
 
 This code implements a binary classification model using LightGBM for a Home Credit default risk prediction problem. 
