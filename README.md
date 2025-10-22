@@ -54,13 +54,16 @@ Configure build folder and cmake, make sure you have cmake 3.8 or above
 cmake -DUSE_ROCM=1 -B build -S .     - for Rocm 6.4
 cmake -DUSE_ROCM=1 -B build -S . -D CMAKE_PREFIX_PATH=/opt/rocm     - for Rocm 7.0
 
+To use GPU:
+cmake -DUSE_GPU=1 -DUSE_ROCM=1 -B build -S .
+cmake -DUSE_GPU=1 -DUSE_ROCM=1 -B build -S . -D CMAKE_PREFIX_PATH=/opt/rocm     - for Rocm 7.0
 **Compile the lightGBM**
 
 make -j
 **Build and Install python package**
 
 export CMAKE_PREFIX_PATH=/opt/rocm
-./build-python.sh install --rocm
+./build-python.sh install --gpu
 
 **Run the Python Script:**
 
