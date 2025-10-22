@@ -74,9 +74,9 @@ export CMAKE_PREFIX_PATH=/opt/rocm
 
 **Run the Python Script:**
 
-~/lightgbm_code# python lightgbm_homecredit.py  - for CPU only
+~/lightgbm_code# python lightgbm_cpu_homecredit.py  - for CPU only
 
-~/lightgbm_code# python lightgbm_gpu.py         - for GPU 
+~/lightgbm_code# python lightgbm_gpu_homecredit.py  - for GPU 
 
 **Example Output:**
 
