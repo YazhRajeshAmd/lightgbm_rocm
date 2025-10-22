@@ -56,7 +56,8 @@ cmake -DUSE_ROCM=1 -B build -S .     - for Rocm 6.4
 
 cmake -DUSE_ROCM=1 -B build -S . -D CMAKE_PREFIX_PATH=/opt/rocm     - for Rocm 7.0
 
-To use GPU:
+**To use GPU:**
+
 cmake -DUSE_GPU=1 -DUSE_ROCM=1 -B build -S .
 
 cmake -DUSE_GPU=1 -DUSE_ROCM=1 -B build -S . -D CMAKE_PREFIX_PATH=/opt/rocm     - for Rocm 7.0
