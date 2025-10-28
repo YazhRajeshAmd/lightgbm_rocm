@@ -90,4 +90,5 @@ Early stopping, best iteration is:
 [232]   valid_0's auc: 0.757778
 Validation AUC: 0.7578
 
-<img width="1681" height="955" alt="image" src="https://github.com/user-attachments/assets/46f4b9f0-87a4-4f7a-8e16-408ed746520e" />
+<img width="1327" height="1251" alt="image" src="https://github.com/user-attachments/assets/49e421a4-7c64-4f59-b216-c4d90dbf6f39" />
+
